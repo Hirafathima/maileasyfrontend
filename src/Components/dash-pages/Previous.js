@@ -14,7 +14,7 @@ function Previous(){
 
 
     useEffect(() => {
-        Axios.get(`http://maileasy.herokuapp.com/user/api/sendmails/${user}`, {
+        Axios.get(`https://maileasy.herokuapp.com/user/api/sendmails/${user}`, {
             headers: {
                 "x-access-token": localStorage.getItem("token"),
             },
